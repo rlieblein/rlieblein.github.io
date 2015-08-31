@@ -15,33 +15,33 @@ body, html {
 -------------------------------------------------- */
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
-.navbar-wrapper {
-  position: absolute;
-  background: transparent;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 20;
-}
+/*.navbar-wrapper {*/
+/*  position: absolute;*/
+/*  background: transparent;*/
+/*  top: 0;*/
+/*  right: 0;*/
+/*  left: 0;*/
+/*  z-index: 20;*/
+/*}*/
 
 /* Flip around the padding for proper display in narrow viewports */
-.navbar-wrapper > .container {
-  padding-right: 0;
-  padding-left: 0;
-}
-.navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
-}
-.navbar-wrapper .navbar .container {
-  width: auto;
-}
+/*.navbar-wrapper > .container {*/
+/*  padding-right: 0;*/
+/*  padding-left: 0;*/
+/*}*/
+/*.navbar-wrapper .navbar {*/
+/*  padding-right: 15px;*/
+/*  padding-left: 15px;*/
+/*}*/
+/*.navbar-wrapper .navbar .container {*/
+/*  width: auto;*/
+/*}*/
 
 /* JUMBOTRON HOMEPAGE
 -------------------------------------------------- */
 #home .jumbotron {
-	margin-top: 3%;
- /*background-color: #B23B2F;*/ 
+   margin-top: 3%;
+   /*background-color: #B23B2F;*/ 
    background: rgb(200, 54, 54); /* This is for ie8 and below */
    background: rgba(200, 54, 54, 0); 
    color: #5081B5;
@@ -49,15 +49,15 @@ body, html {
 }
 
 #home {
-	background-image: url("iceburg.jpg"); 
-	background-size: cover;
-	height: 100vh;
-	padding: 40px 15px;
-    text-align: center;
+  background-image: url("iceburg.jpg"); 
+  background-size: cover;
+  height: 100vh;
+  padding: 40px 15px;
+  text-align: center;
 }
 
 .container h4 {
-	color: black;
+  color: black;
 }
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -67,8 +67,8 @@ body, html {
 }
 
 .row {
-	margin-top: 5%;
-	margin-bottom: 3%;
+  margin-top: 5%;
+  margin-bottom: 3%;
 }
 /* fixxxxxxxx*/
 .aboutme-row {
@@ -76,11 +76,11 @@ body, html {
 }
 
 .contact {
-	transform: translate(0,-31px);
+  transform: translate(0,-31px);
 }
 
 .foot {
-	color: black;
+  color: black;
 }
 
 .marketing .col-lg-4 {
@@ -129,24 +129,24 @@ body, html {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {*/
   /* Navbar positioning foo */
-  .navbar-wrapper {
-    margin-top: 20px;
-  }
-  .navbar-wrapper .container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-  .navbar-wrapper .navbar {
-    padding-right: 0;
-    padding-left: 0;
-  }
+  /*.navbar-wrapper {*/
+  /*  margin-top: 20px;*/
+  /*}*/
+  /*.navbar-wrapper .container {*/
+  /*  padding-right: 15px;*/
+  /*  padding-left: 15px;*/
+  /*}*/
+  /*.navbar-wrapper .navbar {*/
+  /*  padding-right: 0;*/
+  /*  padding-left: 0;*/
+  /*}*/
 
   /* The navbar becomes detached from the top, so we round the corners */
-  .navbar-wrapper .navbar {
-    border-radius: 4px;
-  }
+  /*.navbar-wrapper .navbar {*/
+  /*  border-radius: 4px;*/
+  /*}*/
 
   .featurette-heading {
     font-size: 50px;
