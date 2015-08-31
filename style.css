@@ -1,0 +1,179 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 50px;
+  background-color: #B2B2B2;
+}
+
+body, html { 
+  height: 100%; 
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  background: transparent;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+/* JUMBOTRON HOMEPAGE
+-------------------------------------------------- */
+#home .jumbotron {
+	margin-top: 3%;
+ /*background-color: #B23B2F;*/ 
+   background: rgb(200, 54, 54); /* This is for ie8 and below */
+   background: rgba(200, 54, 54, 0); 
+   color: #5081B5;
+   /*last number is opacity */
+}
+
+#home {
+	background-image: url("iceburg.jpg"); 
+	background-size: cover;
+	height: 100vh;
+	padding: 40px 15px;
+    text-align: center;
+}
+
+.container h4 {
+	color: black;
+}
+/* MARKETING CONTENT
+-------------------------------------------------- */
+.portrait {
+  text-align:center;
+  margin-top: 4%;
+}
+
+.row {
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+/* fixxxxxxxx*/
+.aboutme-row {
+  margin-bottom: 5%;
+}
+
+.contact {
+	transform: translate(0,-31px);
+}
+
+.foot {
+	color: black;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+/*  margin: 80px 0;  Space out the Bootstrap <hr> more 
+*/}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+/*.column1-2 {
+	transform: translate(0,260px);
+}
+
+.column2-1 {
+	transform: translate(0,-55px);
+}
+
+.column3-1 {
+	transform: translate(0,-55px);
+}
+
+.column3-2 {
+	transform: translate(0, 140px);
+}
+*/
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+/*FOOTER
+---------------------------------------- */
+#bottom{
+  text-align: center;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  background-color: #000;
+  color: #848484;
+}
+
+#bottom a:hover {
+    text-decoration: underline;
+
+}
+
+#bottom a:active {
+    text-decoration: underline;
+}
