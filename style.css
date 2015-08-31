@@ -49,22 +49,30 @@ body, html {
 }
 
 #home {
-	background-image: url("../Discussion notes/iceburg.jpg"); 
+	background-image: url("iceburg.jpg"); 
 	background-size: cover;
 	height: 100vh;
 	padding: 40px 15px;
     text-align: center;
 }
 
-.container h5 {
+.container h4 {
 	color: black;
 }
 /* MARKETING CONTENT
 -------------------------------------------------- */
+.portrait {
+  text-align:center;
+  margin-top: 4%;
+}
 
 .row {
 	margin-top: 5%;
 	margin-bottom: 3%;
+}
+/* fixxxxxxxx*/
+.aboutme-row {
+  margin-bottom: 5%;
 }
 
 .contact {
