@@ -39,20 +39,27 @@
 <!-- NAVBAR
 ================================================== -->
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-inner" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
           <a class="navbar-brand" href="#rlieblein">Ryan Lieblein</a>
         </div>
-        <div>
+        <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#home">Home</a></li>
-            <li><a href="experience.html">Experience</a></li>
-            <li><a href="hobbies.html">About Me</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="hobbies.html">About Me</a></li>
           </ul>
         </div>
       </div>
     </nav>
+
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
